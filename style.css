@@ -1,0 +1,56 @@
+/* General  */
+body{
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 5.625rem;
+    
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.5rem;
+}
+/* top conttainer */
+.top-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+ background-color: #e4f9f5;
+ text-align: center;
+ padding-top: 100px;
+position: relative;
+}
+.top-container span{
+    text-decoration: underline;
+}
+.cloud1{
+    position: absolute;
+    top: 10%;
+    right: 20%;
+}
+.cloud2{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.middle-container{
+
+    justify-content: center;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    margin: 0 auto;
+}
+
+/* Hover effect */
